@@ -114,6 +114,27 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
+    fantaiyi: {
+        api: 'http://www.饭太硬.net/tv',
+        name: '饭太硬'
+    },
+    wongxiao: {
+        api: 'http://tvbox.xn--4kq62z5rby2qupq9ub.top',
+        name: '王二小'
+    },
+    qiaoji: {
+        api: 'http://cdn.qiaoji8.com/tvbox.json',
+        name: '巧技'
+    },
+    XBPQ: {
+        api: 'https://tv.xn--yhqu5zs87a.top',
+        name: 'XBPQ'
+    },
+    
+    fatcat: {
+        api: 'http://肥猫.com',
+        name: '肥猫'
+    }
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
