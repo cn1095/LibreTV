@@ -134,7 +134,7 @@ const API_SITES = {
     fatcat: {
         api: 'http://肥猫.com',
         name: '肥猫'
-    }
+    },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
