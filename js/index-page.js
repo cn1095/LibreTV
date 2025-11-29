@@ -1,6 +1,7 @@
 // 页面加载后显示弹窗脚本
 document.addEventListener('DOMContentLoaded', function() {
     // 弹窗显示脚本
+    localStorage.setItem('hasSeenDisclaimer', 'true');
     // 检查用户是否已经看过声明
     const hasSeenDisclaimer = localStorage.getItem('hasSeenDisclaimer');
     
