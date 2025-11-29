@@ -28,11 +28,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // 设置默认API选择（如果是第一次加载）
     if (!localStorage.getItem('hasInitializedDefaults')) {
         // 默认选中资源
-        selectedAPIs = ["tyyszy", "bfzy", "dyttzy", "ruyi"];
-        localStorage.setItem('selectedAPIs', JSON.stringify(selectedAPIs));
+        // selectedAPIs = ["tyyszy", "bfzy", "dyttzy", "ruyi"];
+        // localStorage.setItem('selectedAPIs', JSON.stringify(selectedAPIs));
+        selectAllAPIs(true, false);
 
         // 默认选中过滤开关
-        localStorage.setItem('yellowFilterEnabled', 'true');
+        localStorage.setItem('yellowFilterEnabled', 'false');
         localStorage.setItem(PLAYER_CONFIG.adFilteringStorage, 'true');
 
         // 默认启用豆瓣功能
